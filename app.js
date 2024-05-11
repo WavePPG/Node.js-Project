@@ -7,7 +7,7 @@ const debug = require('debug')('app')
 app.use(morgan('combined'))
 app.get("/" , (req,res) =>{
 
-    res.send('LOVE SAROCHA :>');
+    res.send('LOVE SAROCHA SO MINI');
 
 }) //จัดการกับ Reques และส่งคำว่า Hello borntodev กลับไป
 
