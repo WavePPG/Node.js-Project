@@ -7,7 +7,7 @@ const debug = require('debug')('app')
 app.use(morgan('combined'))
 app.get("/" , (req,res) =>{
 
-    res.send('Hello borntodev');
+    res.send('Hello borntodev UO');
 
 }) //จัดการกับ Reques และส่งคำว่า Hello borntodev กลับไป
 
